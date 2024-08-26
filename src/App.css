@@ -1,0 +1,288 @@
+
+body {
+  
+   font-family: Handlee, cursive;
+  background-color: #f8f9fa;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  width: 100%; 
+}
+p{
+  font-family: "Nunito", sans-serif, "Lucida Handwriting";
+}
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+span{
+  color: red;
+  
+}
+.h1style{
+  color: blue;
+  }
+
+#root {
+  width: 100%; 
+  margin: 0 auto;
+  /* padding: 2rem; */
+ 
+}
+a:hover {
+  color: #0f6674;
+  text-decoration: underline;
+}
+
+/* Navbar Styles */
+
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+  text-wrap: wrap;
+  margin-left: 3%;
+}
+.navbar-brand:hover{
+  color: #007bff;
+  transform: scale(1.1);
+}
+
+.navbar-nav .nav-link {
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+  transform: scale(1.3);
+
+}
+#navbarNav{
+  margin-left: 30%;
+  font-family: "Nunito", sans-serif, "Lucida Handwriting";
+  
+}
+
+/* Footer Styles */
+#footer {
+  background-color: #00394f;
+  font-family: "Nunito", sans-serif, "Lucida Handwriting";
+  
+  color: white;
+  padding: 10px 0;
+}
+
+#footer p {
+  margin: 10px;
+}
+
+/* Page Specific Styles */
+h1 {
+  font-size: 2.5rem;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+/* Button Styles */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* Card Styles */
+.card {
+  padding: 2em;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Customizing the logo */
+.logo {
+  height: 4em;
+  /* padding: 1.5em; */
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.icons{
+  height: 4em;
+  width: 4em;
+  color: rgb(209, 74, 74);
+ display: inline-block;
+ position: relative;
+ margin-top: 15%;
+ padding-right: 5%;
+  
+  
+}
+.icons1{
+  color: rgb(209, 74, 74);
+ /* display: inline-block; */
+ /* position: relative; */
+ /* margin-top: 15%; */
+ padding-right: 2%;
+}
+
+
+
+
+
+/* css for the form */
+#formstyle {
+  background-color: #032633;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 ;
+  text-align: center;
+}
+
+#formstyle h2 {
+  color: #ff0000;
+  font-family: 'Cursive', sans-serif;
+  font-size: 24px;
+}
+
+#formstyle input[type="text"], 
+#formstyle input[type="email"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+#formstyle input[type="submit"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #18a1b5;
+  color: white;
+  border-radius: 30px;
+  transform: scale(1.1);
+
+}
+
+/* seat booking form */
+#formstyle1 {
+  background-color: #009dac; /* Light blue background */
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#formstyle1 h2 {
+  background-color: #033c50; /* Dark blue background */
+  color: #fff;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: 'Cursive', sans-serif;
+  font-size: 24px;
+  margin: -20px -20px 20px; /* Adjust spacing */
+}
+
+#formstyle1 .form-group input.form-control,
+#formstyle1 .form-group select.custom-select {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#formstyle1 .btn-submit {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #033c50; /* Dark blue background */
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#formstyle1 .btn-submit:hover {
+  background-color: #137a8d; /* Slightly lighter shade for hover */
+  transform: scale(1.1);
+}
+.red-text {
+  color: rgb(237, 42, 42);
+}
+.blue-text {
+  color: rgb(13, 82, 135);
+}
+
+
+
+/* map css below */
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 450px; /* You can adjust the height as needed */
+}
+
+.map-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+
+
+/* following is the css for the navbar */
+.bg-navy {
+  background-color: #00394f !important; /* Navy blue color */
+}
+
+.navbar-brand, .nav-link {
+  color: white; /* White text color */
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff; /* White color for the hamburger icon */
+}
